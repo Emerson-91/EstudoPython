@@ -10,8 +10,11 @@ while True:
     r = str(input("Quer continuar[S/N]: ")).upper()[0]
     if r in "N":
         break
-#for c in len(lista):
 lista.sort(reverse=True)
 print(f"Foram digitados {len(lista)} numeros")
 print(f'lista em ordem decrescente: {lista}')
+if 5 in lista:
+    print("O numero 5 esta contido na lista!!")
+else:
+    print("O numero 5 nao esta na lista!! ")
 
